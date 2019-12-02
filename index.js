@@ -17,13 +17,12 @@ let throwFrisbee = function(dogName="Byron", dogBreed="poodle") {
   console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
   return `Throw the frisbee for ${dogName} the ${dogBreed}`
 }
-
-var walkHome = function(dogName="Byron", dogBreed="poodle") {
+let walkHome = function(dogName="Byron", dogBreed="poodle") {
   console.log(`Walk home with ${dogName} the ${dogBreed}`);
   return `Walk home with ${dogName} the ${dogBreed}`
 }
 
-var unleashDog = function(dogName="Byron", dogBreed="poodle") {
+let unleashDog = function(dogName="Byron", dogBreed="poodle") {
   console.log(`Unleash ${dogName} the ${dogBreed}`);
   return `Unleash ${dogName} the ${dogBreed}`
 }
